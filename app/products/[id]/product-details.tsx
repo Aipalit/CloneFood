@@ -15,6 +15,7 @@ import {
   BikeIcon,
   ChevronLeftIcon,
   ChevronRightIcon,
+  ShoppingBagIcon,
   TimerIcon,
 } from "lucide-react";
 import Image from "next/image";
@@ -135,6 +136,12 @@ const ProductDetails = ({
           <h3 className=" px-5 font-semibold">Sucos</h3>
           <ProductList products={complementaryProducts} />
         </div>
+      </div>
+      <div className="mt-5 px-6 ">
+        <Button className="w-full gap-2 font-semibold">
+          Adicionar a sacola
+          <ShoppingBagIcon />
+        </Button>
       </div>
     </div>
   );
